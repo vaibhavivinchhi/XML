@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+	<!DOCTYPE student SYSTEM "4.dtd">
+	<student>
+		<stud_det>
+			<student_name></student_name>
+			<personal_info>
+				<address></address>
+				<birthdate></birthdate>
+				<gender>
+					<Male></Male>
+					<Female></Female>
+				</gender>
+				<Mobileno></Mobileno>
+				<Address></Address>
+			</personal_info>
+			<result>
+				<total></total>
+				<percentage></percentage>
+				<grade>
+					<pass></pass>
+				</grade>
+			</result>
+		</stud_det>
+	</student>

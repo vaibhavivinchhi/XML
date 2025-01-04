@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+	<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+		<xs:element name="children">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element name="child_det" maxOccurs="2">
+						<xs:complexType>
+							<xs:choice>
+								<xs:element name="boy" type="xs:string"/>
+								<xs:element name="girl" type="xs:string"/>
+							</xs:choice>
+						</xs:complexType>
+						<!--<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="boy"/>
+								<xs:enumeration value="girl"/>
+							</xs:restriction>
+						</xs:simpleType>-->
+					</xs:element>
+				</xs:sequence>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>

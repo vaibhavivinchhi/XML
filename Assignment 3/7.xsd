@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+	<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+		<xs:element name="item">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element name="name" type="xs:string"/>
+					<xs:element name="category">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="veg">
+									<xs:simpleType>
+										<xs:restriction base="xs:string">
+											<xs:enumeration value="chips"/>
+											<xs:enumeration value="biscuits"/>
+											<xs:enumeration value="salad"/>
+											<xs:enumeration value="breads"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:element>
+								<xs:element name="nonveg" type="xs:string"/>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="company_info">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="phone_no" type="xs:long"/>
+								<xs:element name="address" type="xs:string"/>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>

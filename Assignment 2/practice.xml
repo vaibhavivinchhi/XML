@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+	<!DOCTYPE student SYSTEM "practice.dtd">
+	<student>
+		<student_det>
+			<personal_info>
+				<name></name>
+				<address></address>
+				<mobileno></mobileno>
+			</personal_info>
+		</student_det>
+	</student>

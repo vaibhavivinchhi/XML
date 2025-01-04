@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+	<student>
+		<student_det>
+			<student_name>vaibhavi</student_name>
+			<personal_info>
+				<address>ahmedabad</address>
+				<birthdate>06-03-2006</birthdate>
+				<gender>female</gender>
+				<mobileno>1234567</mobileno>
+			</personal_info>
+			<result>86%</result>
+		</student_det>
+		<student_det>
+			<student_name>vaibhavi</student_name>
+			<personal_info>
+				<address>ahmedabad</address>
+				<birthdate>06-03-2006</birthdate>
+				<gender>female</gender>
+				<mobileno>1234567</mobileno>
+			</personal_info>
+			<result>86%</result>
+		</student_det>
+	</student>
+	<!--Create XML document for Student where it contains the following
+data:
+Student Name, Personal Info (Address, Birthdate,Gender, Mobile
+No, Address) ,Result
+Create XSLT file which will sort name wise all the details in formated
+table.-->

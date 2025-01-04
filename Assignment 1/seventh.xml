@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+	<email>
+		<email_det>
+			<from>abcc@gmail.com</from>
+			<to>def@gmail.com</to>
+			<content>
+				<person>xyz</person>
+				<exersises>
+					<exersise>
+						<topic>about study</topic>
+						<description>heyy</description>
+					</exersise>
+				</exersises>
+				<course>imscit</course>
+			</content>
+		</email_det>
+	</email>

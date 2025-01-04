@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+	<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+		<xs:element name="employee">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element name="enum" type="xs:int"/>
+					<xs:element name="ename" type="xs:string"/>
+					<xs:element name="designation" type="xs:string"/>
+					<xs:element name="salary" type="xs:decimal"/>
+				</xs:sequence>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>

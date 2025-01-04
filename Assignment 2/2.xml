@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+	<!DOCTYPE email[
+		<!ELEMENT email (email_det)>
+		<!ELEMENT email_det (message)>
+		<!ELEMENT message (#PCDATA)>
+		<!ATTLIST message from CDATA #REQUIRED>
+		<!ATTLIST message to CDATA #REQUIRED>
+		<!ATTLIST message subject CDATA #REQUIRED>
+		]>
+	<email>
+		<email_det>
+			<message from="vaibhavi" to="dreshti" subject="gossip">heyy</message>
+		</email_det>
+	</email>

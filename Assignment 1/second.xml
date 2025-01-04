@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+	<student>
+		<student_info>
+			<rollno>113</rollno>
+			<Name>Vaibhavi</Name>
+			<Address>Ahmedabad</Address>
+			<Mobile>1234567890</Mobile>
+			<DOB>06/03/2006</DOB>
+			<age>18</age>
+			<Qualification>abc</Qualification>
+		</student_info>
+	</student>

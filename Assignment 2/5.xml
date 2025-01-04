@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+	<!DOCTYPE Books SYSTEM "5.dtd">
+	<Books>
+		<book_det>
+			<book title="XML"></book>
+			<author></author>
+			<year></year>
+			<publisher></publisher>
+		</book_det>
+	</Books>
+	

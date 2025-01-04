@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+	<!DOCTYPE student SYSTEM "allpractice.dtd">
+	<student>
+		<student_name>vaibhavi</student_name>
+		<personal_info>
+			<address>ahm</address>
+			<birthdate>06-03-2006</birthdate>
+			<gender>female</gender>
+			<mobileno>1234567890</mobileno>
+		</personal_info>
+	</student>
+	<!--Create XML document for Student where it contains the following
+data:
+Student Name, Personal Info (Address, Birthdate,Gender, Mobile
+No, Address) ,Result(Total, Percentage, Grade)
+Create External DTD declaration for Student where
+• Gender has only two choices Male and Female as an element.
+• Grade element should have only one of these grade element
+(Pass, First, Dist., Second, Fail)
+In Question 4 Use conditional statement INCLUDE of student
+personal information DTD and IGNORE of result DTD)-->

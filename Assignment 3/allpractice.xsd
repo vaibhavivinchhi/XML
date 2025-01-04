@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+	<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+		<xs:element name="student">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element name="name">
+						<xs:complexType mixed="true">
+							<xs:sequence>
+								<xs:element name="lname" type="xs:string"/>
+							</xs:sequence>
+                            <xs:attribute name="gender" type="xs:string" use="required"/>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="personal_info">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="id">
+									<xs:simpleType>
+										<xs:restriction base="xs:string">
+											<xs:pattern value="[A-Z][0-9]{3}"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:element>
+								<xs:element name="address">
+									<xs:simpleType>
+										<xs:restriction base="xs:string">
+											<xs:maxLength value="20"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:element>
+								<xs:element name="phoneno">
+									<xs:simpleType>
+										<xs:restriction base="xs:string">
+											<xs:length value="10"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:element>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="result">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="total" type="xs:int"/>
+								<xs:element name="percentage" type="xs:int"/>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>

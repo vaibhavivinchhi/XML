@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+	<!DOCTYPE student_info[
+		<!ELEMENT student_info (student_det)>
+		<!ELEMENT student_det (student+,Course,subject)>
+		<!ELEMENT student (name,contact_no)>
+		<!ELEMENT Course (cname)>
+		<!ATTLIST student which_course IDREF #REQUIRED>
+		<!ATTLIST Course c_id ID #REQUIRED>
+		<!ATTLIST subject name (java|xml|OS) #REQUIRED>
+		<!ELEMENT name (#PCDATA)>
+		<!ELEMENT contact_no (#PCDATA)>
+		<!ATTLIST contact_no num NMTOKEN #REQUIRED>
+		<!ELEMENT cname (#PCDATA)>
+		<!ELEMENT subject (#PCDATA)>
+		]>
+	<student_info>
+		<student_det>
+			<student which_course="a113">
+				<name></name>
+				<contact_no num="123456789"></contact_no>
+			</student>
+			<Course c_id="a113">
+				<cname></cname>
+			</Course>
+			<subject name="xml"></subject>
+		</student_det>
+	</student_info>

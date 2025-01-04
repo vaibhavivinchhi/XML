@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+	<!DOCTYPE student[
+		<!ELEMENT student (stud_det)>
+		<!ELEMENT stud_det (name,ID,plan)>
+		<!ELEMENT name (fname,lname)>
+		<!ELEMENT plan (course)>
+		<!ELEMENT course (cname,shortname,record)>
+		<!ELEMENT record (declaration)>
+		<!ELEMENT fname (#PCDATA)>
+		<!ELEMENT lname (#PCDATA)>
+		<!ELEMENT ID (#PCDATA)>
+		<!ATTLIST course year CDATA #REQUIRED>
+		<!ELEMENT cname (#PCDATA)>
+		<!ELEMENT shortname (#PCDATA)>
+		<!ELEMENT declaration (#PCDATA)>
+		]>
+	<student>
+		<stud_det>
+			<name>
+				<fname>Vaibhavi</fname>
+				<lname>Vinchhi</lname>
+			</name>
+			<ID>A112</ID>
+			<plan>
+				<course year="5">
+					<cname>IMSCIT</cname>
+					<shortname>IM</shortname>
+					<record>
+						<declaration>integreted Master of science in IT</declaration>
+					</record>
+				</course>
+			</plan>
+		</stud_det>
+	</student>

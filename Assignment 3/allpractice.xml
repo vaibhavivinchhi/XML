@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+	<student>
+		<name gender="female">
+			vaibhavi
+			<lname>vinchhi</lname>
+		</name>
+		<personal_info>
+			<id>A113</id>     <!--should be followed by this pattern-->
+			<address>ahm</address>       <!--maximum length 20-->
+			<phoneno>1234567890</phoneno>    <!--fixed length 10-->
+		</personal_info>
+		<result>
+			<total>604</total>
+			<percentage>86</percentage>
+		</result>
+	</student>

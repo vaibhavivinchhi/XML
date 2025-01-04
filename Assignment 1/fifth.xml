@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+	<!DOCTYPE books[
+		<!ELEMENT books (book_det)>
+		<!ELEMENT book_det (book,author,year,publisher)>
+		<!ELEMENT book (#PCDATA)>
+		<!ATTLIST book title CDATA #REQUIRED>
+		<!ELEMENT author (#PCDATA)>
+		<!ELEMENT year (#PCDATA)>
+		<!ELEMENT publisher (#PCDATA)>
+		]>
+		<books>
+			<book_det>
+				<book title="abc">java</book>
+				<author>vaibhavi</author>
+				<year>2007</year>
+				<publisher>oxferd</publisher>
+			</book_det>
+		</books>

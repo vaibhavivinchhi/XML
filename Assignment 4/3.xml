@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+	<Books>
+		<book_det>
+			<book title="abc">abc</book>
+			<author>vaibhavi</author>
+			<year>1996</year>
+			<publisher>xyz</publisher>
+		</book_det>
+		<book_det>
+			<book title="abc">pqr</book>
+			<author>vaibhavi</author>
+			<year>1986</year>
+			<publisher>Gls</publisher>
+		</book_det>
+		<book_det>
+			<book title="abc">opq</book>
+			<author>vaibhavi</author>
+			<year>2003</year>
+			<publisher>smpic</publisher>
+		</book_det>
+		<book_det>
+			<book title="abc">efg</book>
+			<author>vaibhavi</author>
+			<year>2006</year>
+			<publisher>Ha</publisher>
+		</book_det>
+		<book_det>
+			<book title="abc">bcd</book>
+			<author>vaibhavi</author>
+			<year>1980</year>
+			<publisher>AU</publisher>
+		</book_det>
+	</Books>
+<!--Create an XML document Books where it contains the following data :
+Books (book (title) as an attribute , author , year , publisher ). add 5
+data.
+Write XSLT document which displays books published <1998-->

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+	<employee>
+		<employee_det>
+			<emp_no></emp_no>
+			<name></name>
+			<department></department>
+			<manager_name></manager_name>
+			<project_assign>
+				<proj_1></proj_1>
+				<proj_2></proj_2>
+				<proj_3></proj_3>
+			</project_assign>
+		</employee_det>
+	</employee>

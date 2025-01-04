@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+	<order>
+		<order_detail>
+			<order_number>12</order_number>
+			<order_date>15/07/2024</order_date>
+			<Order_amount>120</Order_amount>
+			<item_price>12</item_price>
+			<item_name>abc</item_name>
+			<quantity>10</quantity>
+		</order_detail>
+	</order>
+	

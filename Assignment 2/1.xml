@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+	<!DOCTYPE student SYSTEM "1.dtd">
+	<student>
+		<personal_info>
+			<rollno>113</rollno>
+			<name>vaibhavi</name>
+			<address>Ahmedabad</address>
+			<mobile>1234567890</mobile>
+			<Dob>06/03/2006</Dob>
+			<age>18</age>
+			<Qualification>abc</Qualification>
+		</personal_info>
+	</student>

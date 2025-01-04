@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+	<student>
+		<stud_det>
+			<student_name>Vaibhavi</student_name>
+			<personal_info>
+				<address>Ahmedabad</address>
+				<Birthdate>6th march 2006</Birthdate>
+				<gender>female</gender>
+				<mobile_no>1234567890</mobile_no>
+			</personal_info>
+			<result>
+				<total>604</total>
+				<percentage>86</percentage>
+				<grade>O+</grade>
+			</result>
+		</stud_det>
+	</student>

@@ -1,0 +1,9 @@
+<!ELEMENT student (personal_info)>
+<!ELEMENT personal_info (rollno,name,address,mobile,Dob,age,Qualification)>
+<!ELEMENT rollno (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT mobile (#PCDATA)>
+<!ELEMENT Dob (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT Qualification (#PCDATA)>

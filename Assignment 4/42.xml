@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+	<Student>
+		<stud_det>
+			<Student_Name>Drashti</Student_Name>
+			<Personal_Info>
+				<Address>Ahmedabad</Address>
+				<Birthdate>12-03-2005</Birthdate>
+				<Gender>Female</Gender>
+				<Mobileno>1234567896</Mobileno>
+			</Personal_Info>
+			<Result>99</Result>
+		</stud_det>
+		<stud_det>
+			<Student_Name>Vaibhavi</Student_Name>
+			<Personal_Info>
+				<Address>Ahmedabad</Address>
+				<Birthdate>17-01-2005</Birthdate>
+				<Gender>Female</Gender>
+				<Mobileno>7412589635</Mobileno>
+			</Personal_Info>
+			<Result>90</Result>
+		</stud_det>
+		<stud_det>
+			<Student_Name>Mauli</Student_Name>
+			<Personal_Info>
+				<Address>Ahmedabad</Address>
+				<Birthdate>06-03-2005</Birthdate>
+				<Gender>Female</Gender>
+				<Mobileno>8524567896</Mobileno>
+			</Personal_Info>
+			<Result>96</Result>
+		</stud_det>
+	</Student>
+<!--Create XML document for Student where it contains the following
+data:
+Student Name, Personal Info (Address, Birthdate,Gender, Mobile
+No, Address) ,Result
+Create XSLT file which will sort name wise all the details in formated
+table.-->

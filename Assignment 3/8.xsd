@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+	<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+		<xs:element name="vender">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element name="vender_name" type="xs:string"/>
+					<xs:element name="personal_info">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="address" type="xs:string"/>
+								<xs:element name="birthdate" type="xs:date"/>
+								<xs:element name="gender" type="xs:string"/>
+								<xs:element name="pincode" type="xs:int"/>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>

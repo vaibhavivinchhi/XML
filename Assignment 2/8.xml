@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+	<!DOCTYPE student SYSTEM "8.dtd">
+	<student>
+		<stud_det>
+			<rollno></rollno>
+			<name></name>
+			<marks>
+				<web_technologies></web_technologies>
+				<XML></XML>
+				<J2EE></J2EE>
+				<NS></NS>
+			</marks>
+			<rank></rank>
+		</stud_det>
+	</student>

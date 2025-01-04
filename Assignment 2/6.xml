@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+	<!DOCTYPE student SYSTEM "6.dtd">
+		<student>
+			<stud_det>
+				<Name>
+					<fname></fname>
+					<lname></lname>
+				</Name>
+				<ID></ID>
+				<Plan>
+					<courses year="">
+						<course>
+							<name></name>
+							<shortname></shortname>
+							<record>
+								<grade></grade>
+								<date></date>
+							</record>
+						</course>
+					</courses>
+				</Plan>
+			</stud_det>
+		</student>
+	

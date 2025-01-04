@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+	<employee>
+		<enum>123</enum>
+		<ename>abc</ename>
+		<designation>HR</designation>
+		<salary>20000</salary>
+	</employee>
+	<!--Write an XML document and corresponding XML schema for
+maintaining the employee number, name, designation, and salary.-->

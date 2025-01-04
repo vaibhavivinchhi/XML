@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+	<!DOCTYPE Email SYSTEM "7.dtd">
+	<Email>
+		<Email_det>
+			<from></from>
+			<to></to>
+			<content>
+				<person></person>
+				<exercises>
+					<exercise>
+						<topic></topic>
+						<description></description>
+					</exercise>
+				</exercises>
+			</content>
+			<courses></courses>
+		</Email_det>
+	</Email>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+	<item>
+		<name>abc</name>
+		<category>
+			<veg>salad</veg>
+			<nonveg></nonveg>
+		</category>
+		<company_info>
+			<phone_no>12345678</phone_no>
+			<address></address>
+		</company_info>
+	</item>

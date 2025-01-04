@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+	<!DOCTYPE order[
+		<!ELEMENT order (orderdetail)>
+		<!ELEMENT orderdetail (ordernumber,orderate,orderamount?,itemprice*,itemname+,quantity*)>
+		<!ELEMENT ordernumber (#PCDATA)>
+		<!ATTLIST ordernumber orderdate CDATA #REQUIRED>
+		<!ELEMENT orderate (#PCDATA)>
+		<!ELEMENT orderamount (#PCDATA)>
+		<!ELEMENT itemprice (#PCDATA)>
+		<!ELEMENT itemname (#PCDATA)>
+		<!ELEMENT quantity (#PCDATA)>
+		]>
+	<order>
+		<orderdetail>
+			<ordernumber orderdate=""></ordernumber>
+			<orderate></orderate>
+			<orderamount></orderamount>
+			<itemprice></itemprice>
+			<itemname></itemname>
+			<quantity></quantity>
+		</orderdetail>
+	</order>

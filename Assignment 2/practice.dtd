@@ -1,0 +1,16 @@
+<!ENTITY % personal_information "INCLUDE">
+<![ %personal_information;[
+	<!ELEMENT personal_info (name,address,mobileno)>
+	]]>
+<!ENTITY % result_information "IGNORE">
+<![ %result_information;[
+	<!ELEMENT result (total,percentage,grade)>
+	]]>
+	<!ELEMENT student (student_det)>
+	<!ELEMENT student_det (personal_info)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT address (#PCDATA)>
+	<!ELEMENT mobileno (#PCDATA)>
+	<!ELEMENT total (#PCDATA)>
+	<!ELEMENT percentage (#PCDATA)>
+	<!ELEMENT grade (#PCDATA)>

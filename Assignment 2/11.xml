@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+	<!DOCTYPE student SYSTEM "11.dtd">
+	<student>
+		<student_name></student_name>
+		<personal_info>
+			<address></address>
+			<birthdate></birthdate>
+			<gender></gender>
+			<mobileno></mobileno>
+		</personal_info>
+	</student>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+	<!DOCTYPE letter[
+		<!ELEMENT letter (letter_det)>
+		<!ELEMENT letter_det (contact,salutation,paragraph,closing,signature)>
+		<!ELEMENT contact (name,address,city,pin,state,flag)>
+		<!ATTLIST contact type CDATA #REQUIRED>
+		<!ATTLIST flag gender CDATA #REQUIRED>
+		<!ELEMENT name (#PCDATA)>
+		<!ELEMENT address (#PCDATA)>
+		<!ELEMENT city (#PCDATA)>
+		<!ELEMENT pin (#PCDATA)>
+		<!ELEMENT state (#PCDATA)>
+		<!ELEMENT flag (#PCDATA)>
+		<!ELEMENT salutation (#PCDATA)>
+		<!ELEMENT paragraph (#PCDATA)>
+		<!ELEMENT closing (#PCDATA)>
+		<!ELEMENT signature (#PCDATA)>
+		]>
+	<letter>
+		<letter_det>
+			<contact type="manager">
+				<name></name>
+				<address></address>
+				<city></city>
+				<pin></pin>
+				<state></state>
+				<flag gender="female"></flag>
+			</contact>
+			<salutation></salutation>
+			<paragraph></paragraph>
+			<closing></closing>
+			<signature></signature>
+		</letter_det>
+	</letter>

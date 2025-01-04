@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+	<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+		<xs:element name="salesperson">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element name="name" type="xs:string"/>
+					<xs:element name="business_info" type="btype"/>
+					<xs:element name="personal_info" type="ptype"/>
+				</xs:sequence>
+			</xs:complexType>
+		</xs:element>
+		
+		<xs:complexType name="btype">
+			<xs:sequence>
+				<xs:element name="company" type="xs:string"/>
+				<xs:element name="department">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="sales"/>
+							<xs:enumeration value="financial"/>
+							<xs:enumeration value="operation"/>
+							<xs:enumeration value="database"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="manager" type="xs:string"/>
+				<xs:element name="phone_no" type="xs:int"/>
+				<xs:element name="email" type="xs:string"/>
+			</xs:sequence>
+		</xs:complexType>
+		
+		<xs:complexType name="ptype">
+			<xs:sequence>
+				<xs:element name="phone_no" type="xs:int"/>
+				<xs:element name="address" type="xs:string"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:schema>

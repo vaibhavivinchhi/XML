@@ -1,0 +1,197 @@
+(1)
+<?xml version="1.0"?>
+	<student>
+		<stud_det>
+			<student_name>Vaibhavi</student_name>
+			<personal_info>
+				<address>Ahmedabad</address>
+				<Birthdate>6th march 2006</Birthdate>
+				<gender>female</gender>
+				<mobile_no>1234567890</mobile_no>
+			</personal_info>
+			<result>
+				<total>604</total>
+				<percentage>86</percentage>
+				<grade>O+</grade>
+			</result>
+		</stud_det>
+	</student>
+	
+(2)
+<?xml version="1.0"?>
+	<student>
+		<student_info>
+			<rollno>113</rollno>
+			<Name>Vaibhavi</Name>
+			<Address>Ahmedabad</Address>
+			<Mobile>1234567890</Mobile>
+			<DOB>06/03/2006</DOB>
+			<age>18</age>
+			<Qualification>abc</Qualification>
+		</student_info>
+	</student>
+	
+(3)
+<?xml version="1.0"?>
+	<order>
+		<order_detail>
+			<order_number>12</order_number>
+			<order_date>15/07/2024</order_date>
+			<Order_amount>120</Order_amount>
+			<item_price>12</item_price>
+			<item_name>abc</item_name>
+			<quantity>10</quantity>
+		</order_detail>
+	</order>
+	
+(4)
+<?xml version="1.0"?>
+	<!DOCTYPE email[
+		<!ELEMENT email (email_det)>
+		<!ELEMENT email_det (message)>
+		<!ELEMENT message (#PCDATA)>
+		<!ATTLIST message from CDATA #REQUIRED>
+		<!ATTLIST message to CDATA #REQUIRED>
+		<!ATTLIST message subject CDATA #REQUIRED>
+		]>
+		<email>
+			<email_det>
+				<message from="vaibhavi" to="drashti" subject="gossip">hey</message>
+			</email_det>
+		</email>
+	
+(5)
+<?xml version="1.0"?>
+	<!DOCTYPE books[
+		<!ELEMENT books (book_det)>
+		<!ELEMENT book_det (book,author,year,publisher)>
+		<!ELEMENT book (#PCDATA)>
+		<!ATTLIST book title CDATA #REQUIRED>
+		<!ELEMENT author (#PCDATA)>
+		<!ELEMENT year (#PCDATA)>
+		<!ELEMENT publisher (#PCDATA)>
+		]>
+		<books>
+			<book_det>
+				<book title="abc">java</book>
+				<author>vaibhavi</author>
+				<year>2007</year>
+				<publisher>oxferd</publisher>
+			</book_det>
+		</books>
+		
+(6)
+<?xml version="1.0"?>
+	<!DOCTYPE student[
+		<!ELEMENT student (stud_det)>
+		<!ELEMENT stud_det (name,ID,plan)>
+		<!ELEMENT name (fname,lname)>
+		<!ELEMENT plan (course)>
+		<!ELEMENT course (cname,shortname,record)>
+		<!ELEMENT record (declaration)>
+		<!ELEMENT fname (#PCDATA)>
+		<!ELEMENT lname (#PCDATA)>
+		<!ELEMENT ID (#PCDATA)>
+		<!ATTLIST course year CDATA #REQUIRED>
+		<!ELEMENT cname (#PCDATA)>
+		<!ELEMENT shortname (#PCDATA)>
+		<!ELEMENT declaration (#PCDATA)>
+		]>
+	<student>
+		<stud_det>
+			<name>
+				<fname>Vaibhavi</fname>
+				<lname>Vinchhi</lname>
+			</name>
+			<ID>A112</ID>
+			<plan>
+				<course year="5">
+					<cname>IMSCIT</cname>
+					<shortname>IM</shortname>
+					<record>
+						<declaration>integreted Master of science in IT</declaration>
+					</record>
+				</course>
+			</plan>
+		</stud_det>
+	</student>
+	
+(7)
+<?xml version="1.0"?>
+	<email>
+		<email_det>
+			<from>abcc@gmail.com</from>
+			<to>def@gmail.com</to>
+			<content>
+				<person>xyz</person>
+				<exersises>
+					<exersise>
+						<topic>about study</topic>
+						<description>heyy</description>
+					</exersise>
+				</exersises>
+				<course>imscit</course>
+			</content>
+		</email_det>
+	</email>
+	
+(8)
+<?xml version="1.0"?>
+	<student>
+		<roll_no>113</roll_no>
+		<name>vaibhavi</name>
+		<marks>86</marks>
+		<rank>1</rank>
+	</student>
+	
+(9)
+<?xml version="1.0"?>
+	<!DOCTYPE letter[
+		<!ELEMENT letter (letter_det)>
+		<!ELEMENT letter_det (contact,salutation,paragraph,closing,signature)>
+		<!ELEMENT contact (name,address,city,pin,state,flag)>
+		<!ATTLIST contact type CDATA #REQUIRED>
+		<!ATTLIST flag gender CDATA #REQUIRED>
+		<!ELEMENT name (#PCDATA)>
+		<!ELEMENT address (#PCDATA)>
+		<!ELEMENT city (#PCDATA)>
+		<!ELEMENT pin (#PCDATA)>
+		<!ELEMENT state (#PCDATA)>
+		<!ELEMENT flag (#PCDATA)>
+		<!ELEMENT salutation (#PCDATA)>
+		<!ELEMENT paragraph (#PCDATA)>
+		<!ELEMENT closing (#PCDATA)>
+		<!ELEMENT signature (#PCDATA)>
+		]>
+	<letter>
+		<letter_det>
+			<contact type="manager">
+				<name></name>
+				<address></address>
+				<city></city>
+				<pin></pin>
+				<state></state>
+				<flag gender="female"></flag>
+			</contact>
+			<salutation></salutation>
+			<paragraph></paragraph>
+			<closing></closing>
+			<signature></signature>
+		</letter_det>
+	</letter>
+	
+(10)
+<?xml version="1.0"?>
+	<employee>
+		<employee_det>
+			<emp_no></emp_no>
+			<name></name>
+			<department></department>
+			<manager_name></manager_name>
+			<project_assign>
+				<proj_1></proj_1>
+				<proj_2></proj_2>
+				<proj_3></proj_3>
+			</project_assign>
+		</employee_det>
+	</employee>

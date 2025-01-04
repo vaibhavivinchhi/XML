@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+	<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+		<xs:element name="student">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element name="sname" type="xs:string"/>
+					<xs:element name="personal_info" type="ptype"/>
+					<xs:element name="result" type="rtype"/>
+				</xs:sequence>
+			</xs:complexType>
+		</xs:element>
+		<xs:complexType name="ptype">
+			<xs:sequence>
+				<xs:element name="address" type="xs:string"/>
+				<xs:element name="birthdate" type="xs:date"/>
+				<xs:element name="gender" type="xs:string"/>
+				<xs:element name="mobileno">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:maxLength value="10"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+		<xs:complexType name="rtype">
+			<xs:sequence>
+				<xs:element name="total" type="xs:int"/>
+				<xs:element name="percentage" type="xs:int"/>
+				<xs:element name="grade" type="xs:string"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:schema>

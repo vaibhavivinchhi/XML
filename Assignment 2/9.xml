@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+	<!DOCTYPE letter SYSTEM "9.xml">
+	<letter>
+		<letter_det>
+			<contact type="sender">
+				<name></name>
+				<address></address>
+				<city></city>
+				<pin></pin>
+				<state></state>
+				<flag gender="male"></flag>
+			</contact>
+			<salutation></salutation>
+			<paragraph></paragraph>
+			<closing></closing>
+			<signature></signature>
+		</letter_det>
+	</letter>
